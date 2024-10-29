@@ -1,0 +1,139 @@
+@font-face {
+    font-family: OldEnglish;
+    src: url(varsity_regular.ttf);
+}
+*{
+    font-family: OldEnglish;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: #000000;
+    user-select: none;
+    text-shadow: 5px 2px 1px #ffffff;
+}
+
+.logodesc{
+    color: #000000;
+    user-select: none;
+    text-shadow: 5px 2px 1px #ffffff;
+}
+.navigation a{
+    position: relative;
+    font: 1.1em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    text-shadow: 5px 2px 1px #ffffff;
+    transition: all 0.2s ease-in-out;
+    padding: 6px 6px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-end-start-radius: 1px;
+}
+
+
+
+.navigation a:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+
+body{
+    background-color:blanchedalmond ;
+}
+
+.parallaxhair{
+    
+    height: 1200vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    padding: 40px 30px;
+    scroll-snap-align: start;
+}
+.parallaxhome{
+    
+        height: 115vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        padding: 40px 30px;
+        scroll-snap-align: start;
+        
+
+
+} 
+.content{
+    text-shadow: 5px 2px 1px #ffffff;
+    min-height: 10vh;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+} 
+.content h1 {
+    font-size: clamp(2rem,5vw,6rem);
+}
+.content p {
+    font-size: 30px;
+}
+
+.parallaxhome:nth-child(1){
+    text-align: center;
+    background-color: #C83E4D;
+}
+.parallaxhome:nth-child(2){
+    text-align: center;
+    background-color: #F4B860;  
+}
+.parallaxhome:nth-child(3){
+    text-align: center;
+    background-color: #F4D6CC;
+}
+.parallaxhair:nth-child(1){
+    text-align: center;
+    background-color: #C83E4D;
+}
+.parallaxhair:nth-child(2){
+    text-align: center;
+    background-color: #F4B860;  
+}
+.parallaxhair:nth-child(3){
+    text-align: center;
+    background-color: #F4D6CC;
+}
+.haircut{
+    
+    font-size: 1.5rem;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
